@@ -9,7 +9,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  audio_streamer: ^2.2.0
+  noise_meter:
+      git:
+         url: https://github.com/raymondloonmd/flutter-plugins-noise-meter.git
+         path: packages/audio_streamer 
 
 dev_dependencies:
   flutter_test:
